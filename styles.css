@@ -1,10 +1,15 @@
 body {
   background-color: hsl(210, 15%, 94%);
-  font-family: sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 nav {
-  float: right;
+  height: 60px;
+}
+
+nav button,
+nav .text {
+    float: right;
 }
 
 a {
@@ -20,13 +25,71 @@ nav .text {
   color: #888;
 }
 
-nav button {
-  vertical-align: top;
+button {
+  border-style: solid;
+  border-width: 1px;
   background-color: hsl(210, 80%, 45%);
   color: white;
   border-radius: 5px;
+}
+nav button {
+  vertical-align: top;
   padding: 5px 20px;
   margin: 5px 10px 0 5px;
-  border-style: solid;
-  border-width: 1px;
+}
+
+header {
+  text-align: center;
+  display: block;
+}
+
+header .logo,
+header img {
+  height: 35px;
+  width: 118px;
+  margin: 0 auto;
+}
+
+section header img {
+  height: 22px;
+  width: 300px;
+  margin: 20px 0
+}
+
+.form-container {
+  background-color: white;
+  border: 1px solid #c7c7c7;
+  width: 318px;
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-container h1 {
+  font-weight: 300;
+  margin: -10px 0 0 0;
+}
+
+.form-container p {
+  line-height: 0px;
+  font-size: 14px;
+  margin: 20px -10px;
+}
+
+.form-container a {
+  font-size: 12px;
+}
+
+fieldset {
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form label,
+form input {
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: left;
 }
