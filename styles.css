@@ -165,11 +165,15 @@ form button img {
 
 footer,
 footer a {
-  margin: 3em auto 0 auto;
+  margin: 0 auto;
   text-align: center;
   color: #505050;
   font-size: 12px;
-  line-height: 6px;
+  line-height: 16px;
+}
+
+footer {
+  margin-top: 3em;
 }
 
 .foot-links span {
