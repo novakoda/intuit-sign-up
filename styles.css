@@ -34,7 +34,7 @@ button img {
 button {
   border-style: solid;
   border-width: 1px;
-  background-color: hsl(210, 80%, 45%);
+  background-color: #0077C5;
   color: white;
   border-radius: 5px;
 }
